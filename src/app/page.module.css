@@ -20,7 +20,7 @@
   font-size: 40px;
   font-weight: 700;
 
-  color: rgba(162, 164, 207, 0.896);
+  color: rgba(146, 86, 91, 0.896);
 }
 .img {
   width: 100%;
@@ -34,8 +34,8 @@
 }
 .button {
   padding: 20px;
-  background-color: rgba(224, 209, 176, 0.9);
-  color: rgb(0, 0, 0);
+  background-color: rgba(109, 160, 236, 0.9);
+  color: rgb(255, 255, 255);
   border: none;
   border-radius: 5px;
   cursor: pointer;

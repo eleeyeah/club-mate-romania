@@ -7,32 +7,32 @@ import styles from "./navbar.module.css";
 const links = [
   {
     id: 1,
-    name: "Home",
+    title: "Home",
     url: "/",
   },
   {
     id: 2,
-    name: "About",
+    title: "About",
     url: "/about",
   },
   {
     id: 3,
-    name: "Produs",
+    title: "Produs",
     url: "/product",
   },
   {
     id: 4,
-    name: "Blog",
+    title: "Blog",
     url: "/blog",
   },
   {
     id: 5,
-    name: "Contact",
+    title: "Contact",
     url: "/contact",
   },
   {
     id: 6,
-    name: "Dashboard",
+    title: "Dashboard",
     url: "/dashboard",
   },
 ];
@@ -42,12 +42,12 @@ const Navbar = () => {
     <div className={styles.container}>
       <Link href='/' className={styles.logo}>
         <Image src="/logo.png" alt="Club Mate" width={120} height={120} />
-        <h1 className={styles.logo-name} >Club Mate Romania</h1>
+        <h1 className={styles.logo2} >Club Mate Romania</h1>
       </Link>
       <div className={styles.links}>
         {links.map((link) => (
           <Link key={link.id} href={link.url} className={styles.link}>
-            {link.name}
+            {link.title}
           </Link>
         ))}
         <button

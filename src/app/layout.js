@@ -2,6 +2,8 @@ import './globals.css'
 import { Inter, Quicksand } from 'next/font/google'
 import Navbar from '@/components/navbar/Navbar'
 import Footer from '@/components/footer/Footer'
+import Image from 'next/image'
+import VideoBackground from '@/components/videoBackground/VideoBackground'
 
 const inter = Inter({ subsets: ['latin'] })
 const quicksand = Quicksand({ subsets: ['latin'] })
@@ -16,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={quicksand.className}>
         <div className="container">
-
+          <VideoBackground />
           <Navbar />
           {children}
           <Footer />
