@@ -3,7 +3,7 @@ import { Inter, Quicksand } from 'next/font/google'
 import Navbar from '@/components/navbar/Navbar'
 import Footer from '@/components/footer/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
+
 const quicksand = Quicksand({ subsets: ['latin'] })
 
 export const metadata = {
@@ -16,7 +16,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={quicksand.className}>
         <div className="container">
-
           <Navbar />
           {children}
           <Footer />
