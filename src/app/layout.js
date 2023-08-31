@@ -1,10 +1,11 @@
 import './globals.css'
-import { Inter, Quicksand } from 'next/font/google'
+import { Inter, Quicksand, } from 'next/font/google'
 import Navbar from '@/components/navbar/Navbar'
 import Footer from '@/components/footer/Footer'
 
 
 const quicksand = Quicksand({ subsets: ['latin'] })
+
 
 export const metadata = {
   title: 'Create Next App',

@@ -37,6 +37,8 @@ const links = [
   },
 ];
 
+
+
 const Navbar = () => {
   return (
     <div className={styles.container}>
@@ -53,6 +55,7 @@ const Navbar = () => {
         <button
         className={styles.logout}
           onClick={() => {
+            
             console.log("Logged Out");
           }}>
           Logout
